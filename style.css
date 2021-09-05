@@ -1,12 +1,9 @@
 * {
-  box-sizing: border-box;
   background: #575757;
-  /* background-color: gray; */
 }
 input {
   text-align: center;
   font-size: 1.5rem;
-  margin: 6%;
   width: 100%;
   cursor: pointer;
   border-radius: 6px;
@@ -16,32 +13,27 @@ input {
 tr {
   text-align: center;
 }
-td{
-  margin: 2%;
-}
 table {
-  transform: translateY(30%);
-  margin-top: auto;
-  padding: 2%;
-  padding-right: 2.5%;
+  transform: translateY(20%);
   margin: auto;
+  padding: 1%;
   border-radius: 7px;
   background: #575757;
   box-shadow: -5px -5px 9px #464646, 5px 5px 9px #686868;
 }
 
-#res {
+input:disabled {
   color: wheat;
-  margin: 0;
   text-align: right;
   padding-top: 20%;
-  padding-right: 5%;
-  padding-bottom: 2%;
-  margin-bottom: 1%;
+  width: 97%;
   border-bottom: 1px solid rgb(148, 147, 144);
   cursor: default;
 }
 
+td {
+  padding: 3%;
+}
 .sym {
   color: hsl(189, 56%, 46%);
   font-weight: 900;
@@ -57,9 +49,8 @@ table {
 }
 button {
   border-radius: 6px;
-  padding: 5.7px;
   cursor: pointer;
-  margin-left: 6%;
   width: 100%;
+  padding: 8.3%;
   background-color: transparent;
 }
