@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b0f29e9bfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table">
+      <table>
+        <tr>
+          <td colspan="4"><input id="res" disabled /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="C" onclick="clr()" class="sym" />
+          </td>
+          <td>
+            <button onclick="back()" class="sym">
+              <i class="fas fa-backspace"></i>
+            </button>
+          </td>
+          <td>
+            <input type="button" value="%" onclick="percent()" class="sym" />
+          </td>
+          <td>
+            <input
+              type="button"
+              value="/"
+              onclick="addinput(value)"
+              class="sym"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="7" onclick="addinput(value)" /></td>
+          <td><input type="button" value="8" onclick="addinput(value)" /></td>
+          <td><input type="button" value="9" onclick="addinput(value)" /></td>
+          <td>
+            <input
+              type="button"
+              value="*"
+              onclick="addinput(value)"
+              class="sym"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" onclick="addinput(value)" /></td>
+          <td><input type="button" value="5" onclick="addinput(value)" /></td>
+          <td><input type="button" value="6" onclick="addinput(value)" /></td>
+          <td>
+            <input
+              type="button"
+              value="-"
+              onclick="addinput(value)"
+              class="sym"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="1" onclick="addinput(value)" /></td>
+          <td><input type="button" value="2" onclick="addinput(value)" /></td>
+          <td><input type="button" value="3" onclick="addinput(value)" /></td>
+          <td>
+            <input
+              type="button"
+              value="+"
+              onclick="addinput(value)"
+              class="sym"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="0" onclick="addinput(value)" /></td>
+          <td>
+            <input type="button" value="00" onclick="addinput(value)" />
+          </td>
+          <td><input type="button" value="." onclick="addinput(value)" /></td>
+          <td>
+            <input
+              type="button"
+              value="="
+              id="equal"
+              onclick="result()"
+              class="sym"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
