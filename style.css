@@ -7,7 +7,7 @@ input {
   width: 100%;
   cursor: pointer;
   border-radius: 6px;
-  color: wheat;
+  color: whitesmoke;
   background-color: transparent;
 }
 tr {
@@ -23,7 +23,7 @@ table {
 }
 
 input:disabled {
-  color: wheat;
+  color: whitesmoke;
   text-align: right;
   padding-top: 20%;
   width: 97%;
@@ -40,7 +40,7 @@ td {
 }
 #equal {
   background-color: hsl(189, 56%, 46%);
-  color: wheat;
+  color: whitesmoke;
   border-radius: 8px;
 }
 
